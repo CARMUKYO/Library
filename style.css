@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookContainer {
+  margin-top: 20px;
+}
+
+.box {
+  font-size: 1.3rem;
+  width:20rem;
+  height:17.5rem;
+  list-style: none;
+  padding:1.5rem 2rem;
+  background-color: #fff;
+  margin: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.box li {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="checkbox"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+.addBook {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addBook:hover {
+  background-color: #45a049;
+}
+
+.newBookButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.newBookButton:hover {
+  background-color: #3071a9;
+}
+
+.remove {
+  font-size: 0.7rem;
+  position: absolute;
+  width: 3.5rem;
+  height: auto;
+  top: 8px;
+  left: 8px;
+}
+
+.remove:hover{
+  background-color: rgb(223, 46, 46);
+}
+
+.read {
+  font-size: 0.7rem;
+  position: absolute;
+  width: 3.5rem;
+  height: auto;
+  
+}
+
+.remove:hover{
+  background-color: rgb(223, 46, 46);
+}
+
+.dropdown-content{
+  display: none;
+}
+.show {display:block;}
+
+.status {
+  font-size: 0.7rem;
+  position: absolute;
+  width: 5rem;
+  height: auto;
+  bottom: 120px;
+  left: 120px;
+}
+
+.status:hover{
+  background-color: rgb(31, 163, 26);
+}
